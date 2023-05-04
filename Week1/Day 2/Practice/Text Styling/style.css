@@ -1,0 +1,27 @@
+
+.mycloud {
+    background-color: #000;
+    color: white;
+    font-style: 'Dancing Script', cursive;
+    padding: 10px 0px 10px 15px;
+    
+
+}
+
+#cloud {
+    color: rgb(0, 184, 245);
+}
+
+.heading2 {
+    background-color: #9402bd;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+.link {
+    display: block;
+    color: black;
+    background-color: rgb(122, 204, 255);
+    text-align: right;
+    padding: 10px;
+}
