@@ -1,0 +1,37 @@
+/*----------PART I----------*/
+.part-1 .row{
+    display: flex;
+    justify-content: space-evenly;
+}
+.part-1 .row .col {
+    background-color: #0011;
+    width: 24%;
+}
+
+/*----------PART II----------*/
+.part-2 .row {
+    display: flex;
+    justify-content: space-evenly;
+}
+.part-2 .row .col {
+    background-color: #0011;
+    width: 33%;
+}
+.part-2 .row .col-2 {
+    background-color: #0011;
+    width: 66%;
+}
+
+/*----------PART III----------*/
+.part-3 .row {
+    display: flex;
+    justify-content: space-evenly;
+}
+.part-3 .row .col-2 {
+    background-color: #0011;
+    width: 39%;
+}
+.part-3 .row .col-3 {
+    background-color: #0011;
+    width: 60%;
+}
