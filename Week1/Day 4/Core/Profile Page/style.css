@@ -2,7 +2,7 @@
     color: white;
     background-color: #111;
 }
-a {
+.nav-link {
     text-decoration: none;
     color: white;
 }
@@ -22,9 +22,11 @@ ul li {
     padding: 2%;
     font-size: 1.5em;
     font-weight: bold;
+    text-decoration: none;
+    color: white;
     letter-spacing: 1.5px;
 }
-.active  {
+.active {
     color: rgb(193, 193, 193);
 }
 
@@ -39,11 +41,115 @@ ul li {
 }
 /*--------------------------------------------------*/
 .container {
-    display: flex;
+    display: grid;
+    width: 60%;
+    height: 100%;
+    padding-top: 100px;
+    padding-left: 20%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+    grid-auto-rows: 100px;
+    grid-template-areas:
+    "a a a b"
+    "a a a e"
+    "a a a e"
+    "c c c e"
 }
-.box {
+.box1,.box2,.box3,.box4 {
     border: 2px solid black;
-    width: 300px;
-    height: 300px;
-    justify-content: space-evenly;
+}
+.box1 {
+    grid-area: a;
+}
+.box1 .profile-bar {
+    width: 100%;
+    height: 30%;
+    background-color: #3376c4;
+}
+.profile-pic {
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    top: 35%;
+    left: 23%;
+}
+.loc-logo {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 51.5%;
+    left: 22%;
+}
+.position {
+    position: absolute;
+    top: 49.7%;
+    left: 24.5%;
+    font-size: 1.3em;
+}
+.info {
+    position: absolute;
+    top: 52%;
+    left: 22.6%;
+    font-size: 1.3em;
+}
+.gear {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 67%;
+    left: 22.4%;
+}
+.link-profile {
+    position: absolute;
+    top: 67.8%;
+    left: 24.7%;
+}
+/*------------------------------------------*/
+.box2 {
+    grid-area: c;
+}
+.box2-bar {
+    height: 30px;
+    background-color: #111;
+}
+.box2-title {
+    position: absolute;
+    top: 73.5%;
+    left: 21%;
+    color: white;
+}
+.box2-content {
+    position: absolute;
+    top: 79%;
+    left: 20.7%;
+}
+.date {
+    position: absolute;
+    top: 81.5%;
+    left: 20.7%;
+    color: grey;
+}
+.another-content {
+    position: absolute;
+    top: 84.1%;
+    left: 20.7%;
+}
+/*-----------------------------------------*/
+.box3 {
+    grid-area: b;
+}
+.notfication-number {
+    position: absolute;
+    top: 28.1%;
+    right: 32.1%;
+    border-radius: 50%;  
+}
+.box3-title {
+    position: absolute;
+    top: 25.5%;
+    right: 24%;
+    color: white;
+}
+.box4 {
+    grid-area: e;
 }
