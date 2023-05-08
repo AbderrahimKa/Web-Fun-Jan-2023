@@ -39,7 +39,7 @@ ul li {
     border-radius: 10px;
     cursor: pointer;
 }
-/*--------------------------------------------------*/
+/*-------------------------------------------------*/
 .container {
     display: grid;
     width: 60%;
@@ -51,7 +51,7 @@ ul li {
     grid-auto-rows: 100px;
     grid-template-areas:
     "a a a b"
-    "a a a e"
+    "a a a b"
     "a a a e"
     "c c c e"
 }
@@ -104,7 +104,7 @@ ul li {
     top: 67.8%;
     left: 24.7%;
 }
-/*------------------------------------------*/
+/*-------------------------------------------------*/
 .box2 {
     grid-area: c;
 }
@@ -134,7 +134,7 @@ ul li {
     top: 84.1%;
     left: 20.7%;
 }
-/*-----------------------------------------*/
+/*-------------------------------------------------*/
 .box3 {
     grid-area: b;
 }
@@ -150,6 +150,86 @@ ul li {
     right: 24%;
     color: white;
 }
+.small-profile-pic {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 50%;
+}
+.name1 {
+    position: absolute;
+    top: 34.5%;
+    right: 28%;
+}
+.interact-btn {
+    position: absolute;
+    display: inline;
+    top: 33.5%;
+    right: 22%;
+}
+.interact-btn button {
+    border-radius: 50%;
+    color: white;
+    background-color: grey;
+    cursor: pointer;
+}
+.check-btn {
+    width: 30px;
+    height: 30px;
+}
+/*------------------------*/
+.small-profile-pic-2 {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    border-radius: 50%;
+    top: 40%;
+    right: 31.6%;
+}
+.name2 {
+    position: absolute;
+    top: 40.9%;
+    right: 28%;
+}
+.interact-btn-2 {
+    position: absolute;
+    display: inline;
+    top: 40%;
+    right: 22%;
+}
+.interact-btn-2 button {
+    border-radius: 50%;
+    color: white;
+    background-color: grey;
+    cursor: pointer;
+}
+.check-btn {
+    width: 30px;
+    height: 30px;
+}
+/*-------------------------------------------------*/
 .box4 {
     grid-area: e;
+}
+.notfication-number-box4 {
+    position: absolute;
+    top: 60.5%;
+    right: 31%;
+    border-radius: 50%;  
+}
+.Adrien-pic,.Anne-pic,.Alayne-pic,.Arry-pic {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.Adrien-pic {
+    position:absolute;
+    top: 66%;
+    right: 31.6%;
+}
+.Adrien {
+    position: absolute;
+    top: 66.7%;
+    right: 27%;
 }
