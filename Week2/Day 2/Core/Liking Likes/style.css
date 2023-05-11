@@ -1,0 +1,46 @@
+a {
+    display: block;
+}
+
+
+.nav-bar {
+    display: block;
+    padding: 5px;
+    background-color: #111;
+}
+
+.nav-title {
+    color: white;
+    font-family: cursive;
+    margin-left: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+    text-align: center;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+.col ,.row {
+    border: 2px solid black;
+    height: max-content;
+    padding: 50px;
+}
+.name {
+    letter-spacing: 1.5px;
+    margin-top: 50px;
+}
+.col img {
+    width: 100px;
+    height: 100px;
+}
+.col a {
+    margin-top: 20px;
+}
+
+
